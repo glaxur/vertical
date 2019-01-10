@@ -1,5 +1,5 @@
 .middle-line {
-position: absolute;
+  position: absolute;
   background-color: royalblue;
   width: 6px;
   top: 0px;
@@ -24,7 +24,9 @@ position: absolute;
   height: 400px;
   width: 300px;
   float: right;
+  clear: both;
   margin-right: 12%;
+  transition: 3s;
 }
 
 .box3 {
@@ -43,7 +45,7 @@ main{
   padding-bottom: 5%;
 }
 
-.box::after{
+.position-left::after{
   content:" ";
   height: 0;
   width: 0;
@@ -74,9 +76,20 @@ div{
 
 }
 
-.box{
+.position-left {
   margin-left: 12%;
+  transition: 3s;
 }
 
+.position-left:hover {
+
+ background-color: red;
+
+}
+
+.position-right:hover {
+
+ background-color: red;
+}
 
 
