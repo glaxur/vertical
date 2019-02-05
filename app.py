@@ -26,7 +26,8 @@ def index():
     else:
         my_html = my_html.replace("{{position_right}}", position_left)
         my_html = my_html.replace("{{position_left}}", position_right)
-# close the file out when you're done
+
+    # close the file out when you're done
     index_file.close()
 
     return my_html
